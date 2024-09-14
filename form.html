@@ -24,35 +24,36 @@
             </div>
             <div class="form_section">
                 <h2>Let's do it!</h2>
+                <p class="warning">Required fields are followed by <span aria-label="required">*</span></p>
                 <form action="#" method="POST">
                     <div class="row_1">
                         <p class="form_p">
-                            <label for="name">FIRST NAME</label>
-                            <input id="name" name="name" type="text">
+                            <label for="name">FIRST NAME <span aria-label="required">*</span></label>
+                            <input id="name" name="name" type="text" placeholder="Twilight" required>
                         </p>
                         <p class="form_p">
-                            <label for="last">LAST NAME</label>
-                            <input id="last" name="last" type="text">
+                            <label for="last">LAST NAME <span aria-label="required">*</span></label>
+                            <input id="last" name="last" type="text" placeholder="Sparkle" required>
                         </p>
                     </div>
                     <div class="row_2">
                         <p class="form_p">
-                            <label for="email">EMAIL</label>
-                            <input id="email" name="email" type="email">
+                            <label for="email">EMAIL <span aria-label="required">*</span></label>
+                            <input id="email" name="email" type="email" placeholder="example@gmail.com" required>
                         </p>
                         <p class="form_p">
                             <label for="tel">PHONE NUMBER</label>
-                            <input id="tel" name="tel" type="tel">
+                            <input id="tel" name="tel" type="tel" placeholder="111 222 333">
                         </p>
                     </div>
                     <div class="row_3">
                         <p class="form_p">
-                            <label for="pwd">PASSWORD</label>
-                            <input id="pwd" name="pwd" type="password">
+                            <label for="pwd">PASSWORD <span aria-label="required">*</span></label>
+                            <input id="pwd" name="pwd" type="password" required>
                         </p>
                         <p class="form_p">
-                            <label for="pwd_confirm">CONFIRM PASSWORD</label>
-                            <input id="pwd_confirm" name="pwd_confirm" type="password">
+                            <label for="pwd_confirm">CONFIRM PASSWORD <span aria-label="required">*</span></label>
+                            <input id="pwd_confirm" name="pwd_confirm" type="password" minlength="5" required>
                         </p>
                     </div>
             </div>

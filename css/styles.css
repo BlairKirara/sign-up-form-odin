@@ -59,6 +59,26 @@ body {
 
 input {
     appearance: none;
+    font-family: kalamRegular1;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 12px;
+    border: 2px solid palevioletred;
+    width: 200px;
+    height: 20px;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:focus {
+    outline: none;
+    border-color: blue;
+}
+
+input::placeholder {
+    color: #adadad;
 }
 
 p.form_p {
@@ -95,11 +115,12 @@ p.form_p {
 h2 {
     margin: 0;
     font-family: kalamBold1;
-    color: rgb(255, 0, 119);
+    color: #ff0077;
 }
 
 label {
     font-family: kalamRegular1;
+    color: #353535;
 }
 
 .logo_section {
@@ -150,4 +171,11 @@ a:hover {
 
 a:visited {
     color: #c2578d;
+}
+
+.warning {
+    font-family: kalamRegular1;
+    color: #353535;
+    padding: 0;
+    margin: 0;
 }
