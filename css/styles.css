@@ -97,7 +97,7 @@ p.form_p {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
+    margin-top: 30px;
 }
 
 .description p {
